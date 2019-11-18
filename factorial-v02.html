@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+
+
+
+
+
+
+function factorial(n){
+if (n < 0) return;
+if (n === 0) return 1;
+return n * factorial(n-1);
+
+}
+
+    
+    var number = prompt("Give me a number: ");
+    var num = parseInt(number);
+    document.write(num + "! is " + factorial(num));
+    </script>
+  </body>
+</html>
